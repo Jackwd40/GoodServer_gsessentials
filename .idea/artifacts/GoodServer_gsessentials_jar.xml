@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GoodServer_gsessentials:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GoodServer_gsessentials_jar</output-path>
+    <root id="archive" name="GoodServer_gsessentials.jar">
+      <element id="module-output" name="GoodServer_gsessentials" />
+    </root>
+  </artifact>
+</component>
