@@ -10,5 +10,6 @@
     <orderEntry type="library" name="spigot-1.16.1" level="project" />
     <orderEntry type="library" name="Vault" level="project" />
     <orderEntry type="library" name="api-5.1" level="project" />
+    <orderEntry type="library" name="McMMO" level="project" />
   </component>
 </module>

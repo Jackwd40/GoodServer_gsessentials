@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="McMMO">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dependencies/McMMO.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

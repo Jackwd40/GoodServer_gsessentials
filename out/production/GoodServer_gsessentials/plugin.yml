@@ -6,3 +6,6 @@ commands:
   rankhelp:
     description: Information about each rank.
     usage: /rankup [name]
+  ac:
+    description: A better adminchat built off McMMO
+    usage: /ac
