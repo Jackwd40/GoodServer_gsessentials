@@ -1,7 +1,7 @@
 name: goodserver_gsessentials
 main: goodserver.gsessentials.pkg.main
-version: 1.1.0
-description: This plugin is extensions of the Good Server commands. GS EssentialsXI if you will. V 1.1.0 because 1 was rankhelp; 1 was admin pay; 0 for dev build testing
+version: 2.1.0
+description: This plugin is extensions of the Good Server commands. GS EssentialsXI if you will. Version follows [Player Viewed Changes].[Server or Admin Changes].[Dev builds and test builds]
 commands:
   rankhelp:
     description: Information about each rank.
@@ -9,3 +9,6 @@ commands:
   ac:
     description: A better adminchat built off McMMO
     usage: /ac
+  keepInv:
+    description: This will be used to toggle keep inventory. If you do not want it then you may disable it
+    usage: /keepinv [on | off]

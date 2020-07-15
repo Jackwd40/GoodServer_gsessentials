@@ -15,8 +15,8 @@ public class TabCompletion implements TabCompleter {
 
         List<String> list = new ArrayList<>();
 
-        if(cmd.getName().equalsIgnoreCase("rankhelp") && args.length >= 0){
-            if(sender instanceof Player){
+        if(cmd.getName().equalsIgnoreCase("rankhelp") && args.length >= 0) {
+            if (sender instanceof Player) {
                 Player player = (Player) sender;
 
 
@@ -27,7 +27,16 @@ public class TabCompletion implements TabCompleter {
                 list.add("good");
 
             }
+        } else if (cmd.getName().equalsIgnoreCase("keepinv") && args.length >= 0){
+            if(sender instanceof Player){
+                Player player = (Player) sender;
+
+                list.add("on");
+                list.add("off");
+            }
         }
+
         return list;
+
     }
 }
